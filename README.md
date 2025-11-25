@@ -1,3 +1,7 @@
+#Parâmetros de rotas do Angular | Aula 11
+#https://youtu.be/cc3maKc4q9M?list=PLhna1crYw0SOFqiss05ybqJCc6fvGn6BF
+
+
 # Curso
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.

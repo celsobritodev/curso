@@ -1,5 +1,7 @@
-<ul>
+<ul class="list-button">
   @for (user of users; track user) {
-  <li>{{ user }}</li>
+  <li class="mb-2">
+    <button [routerLink]="'/users/'+user" class="btn btn-primary btn-fixed">{{ user }} </button>
+  </li>
 }
 </ul>

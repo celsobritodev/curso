@@ -8,6 +8,7 @@ import { Navbar } from './_components/navbar/navbar';
 import { Footer } from './_components/footer/footer';
 import { BaseUi } from './_components/base-ui/base-ui';
 import { Users } from './pages/users/users';
+import { User } from './pages/user/user';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { Users } from './pages/users/users';
     Footer,
     BaseUi,
     Users,
+    User,
 
   ],
   imports: [
