@@ -7,7 +7,7 @@ import { User } from './pages/user/user';
 const routes: Routes = [
   {path: '', component: Home },
   {path: 'users/list', component: Users },
-  {path: 'users/:username', component: User },
+  {path: 'users/details', component: User },
 ];
 
 @NgModule({

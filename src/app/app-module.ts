@@ -9,6 +9,7 @@ import { Footer } from './_components/footer/footer';
 import { BaseUi } from './_components/base-ui/base-ui';
 import { Users } from './pages/users/users';
 import { User } from './pages/user/user';
+import { UserCard } from './_components/user-card/user-card';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { User } from './pages/user/user';
     BaseUi,
     Users,
     User,
+    UserCard,
 
   ],
   imports: [

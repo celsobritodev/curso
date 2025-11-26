@@ -1,7 +1,6 @@
-<ul class="list-button">
+<div class="row">
   @for (user of users; track user) {
-  <li class="mb-2">
-    <button [routerLink]="'/users/'+user" class="btn btn-primary btn-fixed">{{ user }} </button>
-  </li>
-}
-</ul>
+    <app-user-card [user]="user" class="col-md">
+    </app-user-card>
+  }
+</div>
